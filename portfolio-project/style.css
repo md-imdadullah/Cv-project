@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(20, 96, 238);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 1000px;
+    background-color:rgb(33, 192, 144);
+    margin:0 auto;
+    padding: 20px;
+}
+
+header{
+    background-color: turquoise;
+
+}
+.profile-img{
+    width: 10%;
+    height: 15%;
+    border:3px solid rgb(12, 16, 235);
+    border-radius:35%;
+    float: left;
+
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:rgb(119, 19, 36);
+}
+
+.header-contact{
+    float: right;
+    padding:30px;
+}
+.header-contact a{
+    text-decoration:none;
+    color: teal;
+    font-weight:bold;
+
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:rgb(180, 58, 36);
+    
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:2px solid black;
+    width:100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+
+}
+
+/* Personal section start  */
+#personal-section{
+    
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+
+}
+.common-hr{
+    border:solid 1px #333;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+.footer a{
+    text-decoration:none;
+    padding:10px 15px;
+    margin:0 auto;
+    
+    background-color:rgb(14, 2, 2);
+    color: aliceblue;
+}
+.footer {
+    padding: 62px;
+    margin: 0 auto;
+    background-color:rgb(10, 2, 2);
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+}
+.skill{
+  
+
+}
